@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="hillmyhanif-001-site1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\hillm\\source\\repos\\JokesWebApp\\JokesWebApp\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="JokesWebApp.Data.ApplicationDbContext" description="" value="Server=(localdb)\mssqllocaldb;Database=aspnet-JokesWebApp-EC12009B-F195-4917-8ECD-0122DDDFD632;Trusted_Connection=True;MultipleActiveResultSets=true" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\hillm\\source\\repos\\JokesWebApp\\JokesWebApp\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\JokesWebApp\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>
